@@ -1,4 +1,2 @@
 # cw3
-Krzysztof Żebrowski
-15c
-s17531
+Krzysztof Żebrowski 15c s17531
