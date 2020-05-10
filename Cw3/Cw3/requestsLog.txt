@@ -1,0 +1,7 @@
+GET /api/students {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "1993-03-30",
+"Studies": "IT"
+} 
