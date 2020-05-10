@@ -38,7 +38,12 @@ namespace Cw3.middlewares
 
                 string FileName = "requestsLog.txt";
 
-                File.WriteAllText(FileName,method + " " + path + " " + bodyStr + " " + querystring);
+               byte[] data = Encoding.UTF8.GetBytes(method + " " + path + " " + bodyStr + " " + querystring);
+                FileStream fs = new System.IO.FileStream(FileName, FileMode.Append);
+                fs.Write(data, 0, data.Length);
+                fs.Close();
+
+ //               File.WriteAllText(FileName,method + " " + path + " " + bodyStr + " " + querystring);
             }
 
             await _next(httpContext);
