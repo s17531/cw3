@@ -1,16 +1,13 @@
+GET /weatherforecast  
+GET /favicon.ico  
+GET /api/students {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "1993-03-30",
+"Studies": "IT"
+} 
 GET /weatherforecast {
-"IndexNumber": "s1234",
-"FirstName": "Andrzej",
-"LastName": "Malewski",
-"BirthDate": "1993-03-30",
-"Studies": "IT"
-} GET /weatherforecast  GET /favicon.ico  GET /weatherforecast {
-"IndexNumber": "s1234",
-"FirstName": "Andrzej",
-"LastName": "Malewski",
-"BirthDate": "1993-03-30",
-"Studies": "IT"
-} GET /api/students {
 "IndexNumber": "s1234",
 "FirstName": "Andrzej",
 "LastName": "Malewski",

@@ -38,7 +38,7 @@ namespace Cw3.middlewares
 
                 string FileName = "requestsLog.txt";
 
-               byte[] data = Encoding.UTF8.GetBytes(method + " " + path + " " + bodyStr + " " + querystring);
+               byte[] data = Encoding.UTF8.GetBytes("\n"+method + " " + path + " " + bodyStr + " " + querystring);
                 FileStream fs = new System.IO.FileStream(FileName, FileMode.Append);
                 fs.Write(data, 0, data.Length);
                 fs.Close();
